@@ -5,7 +5,7 @@ function sumOfNumsWithinARange(nums, start, end) {
       count++;
     }
   }
-  console.log(count);
+  return count;
 }
 // Do not edit this line;
 module.exports = sumOfNumsWithinARange;
