@@ -3,7 +3,8 @@ function titleCaseEdit(title) {
   for(let i = 0; i < words.length; i++){
     words[i] = words[i][0].toUpperCase() + words[i].substr(1);
   }
-  console.log(words.join(" "));
+  str = words.join(" ");
+  return str;
 }
 // Do not edit this line;
 module.exports = titleCaseEdit;
