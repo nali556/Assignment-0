@@ -9,6 +9,5 @@ function isPalindrome(word) {
   }
   else{ return false;}
 }
-console.log(isPalindrome("racecar"));
 // Do not edit this line;
 module.exports = isPalindrome;
