@@ -5,7 +5,7 @@ function sumOfAllEvenNumbers(nums) {
       count++;
     }
   }
-  console.log(count);
+  return count;
 }
 // Do not edit this line;
 module.exports = sumOfAllEvenNumbers;
