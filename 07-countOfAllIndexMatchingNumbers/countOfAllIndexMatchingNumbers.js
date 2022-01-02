@@ -5,7 +5,7 @@ function countOfAllIndexMatchingNumbers(nums) {
       count++
     }
   }
-  console.log(count);
+  return count;
 }
 /*Note : The markdown file says countOfAllIndexMatchingNumbers([0,2,3,4,4,5,77]) would output 2, put is it not 3 values
 with the same index?
