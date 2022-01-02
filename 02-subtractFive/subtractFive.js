@@ -1,5 +1,6 @@
 function subtractFive(num) {
-  console.log(num - 5);
+  return num - 5;
 }
+console.log(subtractFive(10))
 // Do not edit this line;
 module.exports = subtractFive;
