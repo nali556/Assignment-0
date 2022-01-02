@@ -5,7 +5,7 @@ function countOfAllBooleansAndStrings(arr) {
       count++;
     }
   }
-  console.log(count);
+  return count;
 }
 // Do not edit this line;
 module.exports = countOfAllBooleansAndStrings;
